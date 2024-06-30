@@ -1,0 +1,56 @@
+<!-- activity_your_last_name.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/exerciseSelectionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lose Things" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember Names" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn Things Quickley" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="167dp"
+            android:layout_height="745dp"
+            android:text="Keep Track Of Multiple Things" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exerciseSelectionLayout"
+        android:layout_marginTop="16dp"
+        android:text="Next" />
+
+    <ImageView
+        android:id="@+id/zigzagImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/nextButton"
+        android:layout_marginTop="160dp" />
+</RelativeLayout>
+

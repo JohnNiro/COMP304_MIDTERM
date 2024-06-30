@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JohaenNiroshenGnanakumar_COMP304_001_Hands-On_Test1_S24</string>
+    <string name="title_activity_johaen">johaenActivity</string>
+    <!-- strings.xml -->
+        <string-array name="y_coordinates">
+            <item>50</item>
+            <item>150</item>
+            <item>250</item>
+            <!-- Add more items as needed -->
+        </string-array>
+
+
+</resources>
